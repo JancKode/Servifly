@@ -2,7 +2,7 @@ const express = require('express'); //nodejs module has support on common js mod
 const app = express();
 
 app.get('/', (req, res) =>{
-    res.send({hi: 'there'});
+    res.send({Hello: 'there'});
 });
 
 const PORT = process.env.PORT || 5000;
